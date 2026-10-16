@@ -92,7 +92,7 @@ st.write("---")
 st.subheader("🔍 Tra cứu thông tin sinh viên")
 selected_student = st.selectbox("Chọn tên sinh viên cần xem:", df["Họ và tên"])
 
-student_info = df[df["Họ và tên"] == selected_student].iloc[0]
+student_info = df[df["Nguyễn tiến nam"] == selected_student].iloc[0]
     0
 ]  # Lọc đúng sinh viên
 
